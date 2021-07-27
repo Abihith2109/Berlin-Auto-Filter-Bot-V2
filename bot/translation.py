@@ -4,13 +4,12 @@
 
 class Translation(object):
     
-    START_TEXT = """<b>Hey {}!!</b>
-<i>Am Just A Advance Auto Filter Bot....😉
+    START_TEXT = """<b>
 
 കളി നിന്റെ കമ്പനിക്കാരോട് മതി, ഇത് റേഞ്ച് വേറെയാ ...😉
 
 For More Details Click Help Button Below..
-@CrazyBotsz
+[@Movie_Matrix]
 </i>"""    
     
     Movie_Matrix = """
@@ -43,7 +42,7 @@ For More Details Click Help Button Below..
             
             -> <code>Status</code> - Button Will Shows The Stats Of Your Channel
             
-@CrazyBotsz
+[@Movie_Matrix]
 """
     
     ABOUT_TEXT = """<b>➥ Name</b> : <code> Auto Filter Bot</code>
