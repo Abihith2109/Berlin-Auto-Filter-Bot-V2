@@ -28,14 +28,14 @@ async def start(bot, update):
             await update.reply_cached_media(
                 file_id,
                 quote=True,
-                caption = caption,
+                caption = caption [@Movie_Matrix],
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    'Movie Matrix 😉🍿', url="https://t.me/moviematrix2"
                                 )
                         ]
                     ]
@@ -47,10 +47,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/CrazyBotsz'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2')
+        InlineKeyboardButton('Movie Matrix 😉🍿', url='https://t.me/moviematrix2'),
+        InlineKeyboardButton('Source Code 🧾', url ='https://t.me/kurachkanjiedukkatte/8')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+        InlineKeyboardButton('Official Channel', url='https://t.me/Movie_Matrix')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
