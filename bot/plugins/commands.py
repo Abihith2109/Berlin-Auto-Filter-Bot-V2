@@ -29,7 +29,7 @@ async def start(bot, update):
                 file_id,
                 quote=True,
                 caption = caption,
-                caption == @movie_matrix,
+           
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
