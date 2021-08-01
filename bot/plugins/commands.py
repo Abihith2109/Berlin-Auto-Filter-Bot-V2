@@ -28,7 +28,7 @@ async def start(bot, update):
             await update.reply_cached_media(
                 file_id,
                 quote=True,
-                caption = f"<i>{file_name}</i> \n\n@movie_matrix",
+                caption = f"<tt>{file_name}</tt> \n\n@movie_matrix",
            
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
@@ -36,7 +36,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Movie Matrix 😉🍿', url="https://t.me/movie_matrix"
+                                    'Movie Matrix 😉🍿', url="https://t.me/moviematrix2"
                                 )
                         ]
                     ]
