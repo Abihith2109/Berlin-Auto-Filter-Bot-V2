@@ -36,7 +36,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Movie Matrix 😉🍿', url="https://t.me/moviematrix2"
+                                    'Movie Matrix 😉🍿', url="https://t.me/movie_matrix"
                                 )
                         ]
                     ]
@@ -49,9 +49,9 @@ async def start(bot, update):
 
     buttons = [[
         InlineKeyboardButton('Movie Matrix 😉🍿', url='https://t.me/moviematrix2'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://t.me/kurachkanjiedukkatte/8')
+        InlineKeyboardButton('Official Channel', url ='https://t.me/movie_matrix')
     ],[
-        InlineKeyboardButton('Official Channel', url='https://t.me/Movie_Matrix')
+        InlineKeyboardButton(' Series Channel', url='https://t.me/moviematrixseries')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
