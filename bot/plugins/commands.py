@@ -28,7 +28,7 @@ async def start(bot, update):
             await update.reply_cached_media(
                 file_id,
                 quote=True,
-                caption = f"<tt>{file_name}</tt> \n\n@movie_matrix",
+                caption = f"<b>{file_name}</b> \n\n<b>Powered by:✅@movie_matrix</b>",
            
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
