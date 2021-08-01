@@ -8,7 +8,6 @@ class Translation(object):
 <i>Am Berlin from <a href="https://t.me/Movie_Matrix">Movie Matrix 😉🍿</a>
 You Can't Add Me To Your Group. 
 Created by @do_Creator
-[Join Our Official Channel](buttonurl:https://t.me/Movie_Matrix)
 </i>"""  
     
     HELP_TEXT = """
