@@ -6,6 +6,7 @@ class Translation(object):
     
     START_TEXT = """<b>Hey {}!!</b>
 <i>Am Berlin from <a href="https://t.me/Movie_Matrix">Movie Matrix 😉🍿</a>
+disable_web_page_preview=True,
 You Can't Add Me To Your Group. 
 Created by @do_Creator
 </i>"""  
