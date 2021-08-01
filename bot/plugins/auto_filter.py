@@ -205,6 +205,7 @@ async def auto_filter(bot, update):
                 chat_id = update.chat.id,
                 text=f"Found {(len_results)} Results For Your Request: <code>{query}</code>\n\n🔆 Powered by:🔆\n<a href=https://t.me/Movie_Matrix >Movie Matrix 😉🍿</a>",
                 reply_markup=reply_markup,
+                disable_web_page_preview=True,
                 parse_mode="html",
                 reply_to_message_id=update.message_id
             )
