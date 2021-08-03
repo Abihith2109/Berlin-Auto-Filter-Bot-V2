@@ -143,7 +143,7 @@ async def cb_navg(bot, update: CallbackQuery):
     reply_markup = InlineKeyboardMarkup(temp_results)
     
 
-    text=f"Found {(len_results)} Results For Your Request: <code>{query}</code>\n\n🔆 Powered by:🔆\n ✅<a href=https://t.me/Movie_Matrix ><b>""𝗠𝗼𝘃𝗶𝗲 𝗠𝗮𝘁𝗿𝗶𝘅😉🍿</b></a>",
+    text=f"<i>Found</i> <code>{leng}</code> <i>Results For Your Request:</i> <code>{query}</code>",
                 
             
     try:
