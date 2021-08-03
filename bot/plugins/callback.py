@@ -143,14 +143,15 @@ async def cb_navg(bot, update: CallbackQuery):
     reply_markup = InlineKeyboardMarkup(temp_results)
     
 
-   
-    text=f"Found Results For Your Request: <code>{query}</code>\n\n🔆 Powered by:🔆\n ✅<a href=https://t.me/Movie_Matrix ><b>""𝗠𝗼𝘃𝗶𝗲 𝗠𝗮𝘁𝗿𝗶𝘅😉🍿</b></a>",
+    text=f"<b>Found</b> <code>{leng}</code> <i>Results For Your Request:</i> <code>{query}</code>"
+    text=f"Found Results For Your Request: <code>{query}</code> \n\n 🔆Powered by:🔆 \n ✅<a href=https://t.me/Movie_Matrix ><b>""𝗠𝗼𝘃𝗶𝗲 𝗠𝗮𝘁𝗿𝗶𝘅😉🍿</b></a>"
             
             
     try:
         await update.message.edit(
                 text,
                 reply_markup=reply_markup,
+                disable_web_page_preview=True,
                 parse_mode="html"
         )
         
